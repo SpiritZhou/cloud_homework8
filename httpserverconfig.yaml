@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: http-demo
+data:
+  version_value: "2"  
+  loglevel: debug
